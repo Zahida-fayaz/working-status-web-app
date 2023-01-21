@@ -1,0 +1,11 @@
+const express = required('express')
+const app = express();
+
+
+app.get('/',(req,res)=>{
+    res.send("on home route")
+})
+
+app.listen(3000,()=>{
+    console.log("listening oon port 3000")
+})
